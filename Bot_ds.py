@@ -52,4 +52,3 @@ async def robar(ctx):
         await ctx.author.send(f'Has robado la carta: {carta[0]} {carta[1]}')
     manos[usuario].append(carta)
 
-bot.run("")
